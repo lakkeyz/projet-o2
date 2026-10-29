@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cultura Indígena Brasileira</title>
+  <style>
+    :root {
+      --verde: #245c45;
+      --verde-claro: #e8f2e8;
+      --terracota: #b95737;
+      --areia: #fff8e9;
+      --texto: #26352d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--texto);
+      background: var(--areia);
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(135deg, #245c45, #3c805c);
+      color: white;
+      text-align: center;
+      padding: 58px 20px 48px;
+      border-bottom: 8px solid var(--terracota);
+    }
+    header h1 { margin: 0 0 10px; font-size: clamp(2rem, 5vw, 3.3rem); }
+    header p { max-width: 760px; margin: auto; font-size: 1.1rem; }
+    nav {
+      background: #173f30;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px 24px;
+      padding: 14px;
+    }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 1000px; margin: 32px auto; padding: 0 20px; }
+    section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 22px;
+      border-radius: 14px;
+      border-left: 6px solid var(--terracota);
+      box-shadow: 0 4px 14px rgba(0,0,0,.06);
+    }
+    h2 { color: var(--verde); margin-top: 0; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--verde-claro);
+      padding: 18px;
+      border-radius: 12px;
+      border-top: 4px solid var(--verde);
+    }
+    .card h3 { margin-top: 0; color: var(--verde); }
+    .destaque {
+      background: #fff0e8;
+      border-left-color: var(--terracota);
+    }
+    footer {
+      text-align: center;
+      padding: 24px 16px;
+      background: #173f30;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      header { padding: 40px 16px; }
+      section { padding: 19px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cultura Indígena Brasileira</h1>
+    <p>Conhecer os povos indígenas é valorizar a diversidade, a história e os conhecimentos que fazem parte do Brasil.</p>
+  </header>
+
+  <nav aria-label="Menu principal">
+    <a href="#povos">Povos indígenas</a>
+    <a href="#tradicoes">Tradições</a>
+    <a href="#conhecimentos">Conhecimentos</a>
+    <a href="#respeito">Respeito e valorização</a>
+  </nav>
+
+  <main>
+    <section id="povos">
+      <h2>Quem são os povos indígenas?</h2>
+      <p>Os povos indígenas são os habitantes originários do território que hoje chamamos de Brasil. Existem muitos povos diferentes, com línguas, histórias, costumes e formas de organização próprias. Por isso, não existe uma única cultura indígena: há uma grande diversidade de culturas.</p>
+      <p>Atualmente, os povos indígenas vivem em aldeias, cidades e outros territórios, mantendo suas identidades e também criando novas formas de participar da sociedade.</p>
+    </section>
+
+    <section id="tradicoes">
+      <h2>Tradições e manifestações culturais</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>🌿 Línguas e histórias</h3>
+          <p>Muitas comunidades preservam suas línguas e transmitem conhecimentos, memórias e histórias entre gerações, tanto pela oralidade quanto por registros escritos.</p>
+        </article>
+        <article class="card">
+          <h3>🎶 Música e dança</h3>
+          <p>Cantos, instrumentos e danças podem estar ligados a celebrações, rituais, momentos comunitários e à relação com a natureza. As práticas variam entre os povos.</p>
+        </article>
+        <article class="card">
+          <h3>🎨 Arte e artesanato</h3>
+          <p>Pinturas, cestarias, cerâmicas, grafismos, adornos e objetos utilitários expressam conhecimentos e significados específicos de cada comunidade.</p>
+        </article>
+        <article class="card">
+          <h3>🍠 Alimentação</h3>
+          <p>O cultivo e o preparo de alimentos como mandioca, milho e frutas fazem parte de diferentes tradições. Muitos conhecimentos indígenas influenciaram a alimentação brasileira.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="conhecimentos">
+      <h2>Conhecimentos e relação com a natureza</h2>
+      <p>Diferentes povos indígenas possuem conhecimentos profundos sobre plantas, animais, rios, solos, ciclos naturais e formas de cuidar dos territórios. Esses saberes são importantes para a identidade cultural e podem contribuir para a conservação ambiental.</p>
+      <p>Também existem diversas formas de organização social, práticas de cuidado, tecnologias e modos de ensinar e aprender. É importante conhecer cada povo sem generalizar suas experiências.</p>
+    </section>
+
+    <section class="destaque" id="respeito">
+      <h2>Respeito e valorização</h2>
+      <p>Valorizar a cultura indígena significa respeitar os direitos dos povos indígenas, combater o preconceito, reconhecer sua presença no Brasil atual e ouvir suas próprias vozes. Eles não pertencem apenas ao passado: são povos contemporâneos, com culturas vivas e em constante transformação.</p>
+      <p><strong>Uma atitude importante:</strong> aprender sobre diferentes povos a partir de fontes indígenas e educativas confiáveis, evitando estereótipos e generalizações.</p>
+    </section>
+
+    <section>
+      <h2>Conclusão</h2>
+      <p>A cultura indígena é essencial para compreender a formação do Brasil. Sua diversidade de línguas, tradições, artes e conhecimentos merece ser reconhecida, respeitada e valorizada todos os dias.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Trabalho escolar — Cultura Indígena Brasileira</p>
+  </footer>
+</body>
+</html>
